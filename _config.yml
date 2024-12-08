@@ -1,2 +1,5 @@
 title : Marc AZIAN  
+#logo : /assets/img/headshot-circle.png
+#description : text below 
+#show-downloads : true 
 theme : jekyll-theme-minimal 
