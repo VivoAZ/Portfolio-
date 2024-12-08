@@ -11,11 +11,11 @@ Projet 1 : Prédiction du churn des clients
 - Résultat :
 - Lien github : https://github.com/VivoAZ/Churn-project 
 
-Projet 2 
-- Résumé :
+Projet 2 : Clustering de la clientèle 
+- Résumé : 
 - Approche :
 - Résultat :
-- Lien github :
+- Lien github : https://github.com/VivoAZ/Projet-clustering-/tree/master 
 
 Projet 3 
 - Résumé :
