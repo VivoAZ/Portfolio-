@@ -29,7 +29,7 @@ Projet 3
 - Outils de visualisation : Matplotlib, Seaborn, Plotly
 - Outils de gestion des données : Pandas
 
-### Contact 
+### Contacts  
 
 - Lien profil LinkedIn : www.linkedin.com/in/marc-azian-data-scientist 
 - Addresse email : marcazian77@gmail.com 
