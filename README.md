@@ -5,11 +5,11 @@ Je suis Marc AZIAN,....
 
 ### Mes Projets 
 
-Projet 1 
+Projet 1 : Prédiction du churn des clients 
 - Résumé :
 - Approche :
 - Résultat :
-- Lien github :
+- Lien github : https://github.com/VivoAZ/Churn-project 
 
 Projet 2 
 - Résumé :
