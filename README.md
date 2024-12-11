@@ -1,7 +1,13 @@
 # Data Scientist Junior  
 
 ## Profil  
-Je suis Marc AZIAN,.... 
+Marc AZIAN 
+
+Data Scientist en devenir, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, je suis passionné par l’application de la science des données au domaine du marketing, où j’ai déjà mené plusieurs projets que vous pouvez découvrir ci-dessous.
+
+Ma spécialité réside dans l’utilisation de Python, et je suis en cours d’apprentissage de SQL pour enrichir mes compétences. Je m'intéresse également aux frameworks comme TensorFlow et PyTorch afin de développer mes connaissances en apprentissage profond. Mon adaptabilité et ma capacité à maîtriser rapidement de nouveaux outils technologiques sont des atouts clés de mon parcours.
+
+Actuellement, je travaille sur un projet de classification binaire visant à prédire les résultats électoraux, un projet majeur dans le cadre de ma soutenance de fin de formation. Découvrez l’ensemble de mes réalisations et projets dans ce portfolio.    
 
 ## Mes Projets 
 
@@ -9,15 +15,17 @@ Je suis Marc AZIAN,....
 
 - Résumé 
 
-  Dans ce projet de churn, nous disposons d'une base de données d'une entreprise de telecom (Orange) divisée en deux parties.
-La première composée de 80% des individus est celle qui sera consacrée à l'entraînement de notre modèle et la seconde pour le testing. 
+  Dans ce projet de classification binaire, nous disposons d'une base de données d'une entreprise de telecom (Orange) divisée en deux parties.
+La première composée de 80% des individus est consacrée à l'entraînement de notre modèle et la seconde pour le testing. 
 L'objectif est bien sûr de construire un modèle capable de prédire la probabilité de churn des clients, en se reférant aux informations relatives à leurs divers plans de communication.
 
 - Approche
-   Après importation du jeu de données de train, nous avons procéder à la mise à l'echelle des valeurs numériques avec la méthode StandardScaler puis l'encoding des valeurs catégorielles par la méthode One Hot Encoding. Ensuite, nous avons effectué son prétraitement avant d'importer la base du test sur laquelle nous avons effectué le même exercice. Après cette étape, nous avons implémenté les modèles a utiliser (regression logistique, Xgboost, gradient boosting, SVM et KNeighbors) et les métriques d'évaluation : (roc_auc_score, classification_report). Pour terminer, nous avons comparé les résultats et choisir le meilleurs. 
+
+  Après importation du jeu de données de train, nous avons procéder à la mise à l'echelle des valeurs numériques avec la méthode StandardScaler puis l'encoding des valeurs catégorielles par la méthode One Hot Encoding. Ensuite, nous avons effectué son prétraitement avant d'importer la base du test sur laquelle nous avons effectué le même exercice. Après cette étape, nous avons implémenté les modèles a utiliser (regression logistique, Xgboost, gradient boosting, SVM et KNeighbors) et les métriques d'évaluation : (roc_auc_score, classification_report). Pour terminer, nous avons comparé les résultats et choisir le meilleurs. 
   
 - Résultat
-  Le gradient boosting nous a présenté les meilleurs scores à tous niveaux, comparé aux autres modèles. 
+
+Le gradient boosting nous a présenté les meilleurs scores à tous niveaux, comparé aux autres modèles. 
   
 - Lien github : https://github.com/VivoAZ/Churn-project 
 
