@@ -7,9 +7,18 @@ Je suis Marc AZIAN,....
 
 ### Projet 1 : Prédiction du churn des clients 
 
-- Résumé :
-- Approche :
-- Résultat :
+- Résumé 
+
+  Dans ce projet de churn, nous disposons d'une base de données d'une entreprise de telecom (Orange) divisée en deux parties.
+La première composée de 80% des individus est celle qui sera consacrée à l'entraînement de notre modèle et la seconde pour le testing. 
+L'objectif est bien sûr de construire un modèle capable de prédire la probabilité de churn des clients, en se reférant aux informations relatives à leurs divers plans de communication.
+
+- Approche
+   Après importation du jeu de données de train, nous avons procéder à la mise à l'echelle des valeurs numériques avec la méthode StandardScaler puis l'encoding des valeurs catégorielles par la méthode One Hot Encoding. Ensuite, nous avons effectué son prétraitement avant d'importer la base du test sur laquelle nous avons effectué le même exercice. Après cette étape, nous avons implémenté les modèles a utiliser (regression logistique, Xgboost, gradient boosting, SVM et KNeighbors) et les métriques d'évaluation : (roc_auc_score, classification_report). Pour terminer, nous avons comparé les résultats et choisir le meilleurs. 
+  
+- Résultat
+  Le gradient boosting nous a présenté les meilleurs scores à tous niveaux, comparé aux autres modèles. 
+  
 - Lien github : https://github.com/VivoAZ/Churn-project 
 
 ### Projet 2 : Clustering de la clientèle 
