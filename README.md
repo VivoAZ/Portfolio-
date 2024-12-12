@@ -33,7 +33,7 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
 
 - Résumé
   
-  Nous disposons d'une base de données issue d'une campagne marketing d'une entreprise de telecommunication. L'objectif est de segmenter la clientèle en tenant compte du comportement des individus. C'est donc un projet de classification qui vise à regrouper les clients par catégorie afin de proposer des offres adaptées à chaque classe et optimiser le budget des campagnes.
+  Nous disposons d'une base de données issue d'une campagne marketing d'une entreprise. L'objectif est de segmenter la clientèle en tenant compte du comportement des individus. C'est donc un projet de classification qui vise à regrouper les clients par catégorie afin de proposer des offres adaptées à chaque classe et optimiser le budget des campagnes et faciliter l'ecoulement des articles. 
   
 - Approche
 
