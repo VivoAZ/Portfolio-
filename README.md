@@ -25,37 +25,45 @@ L'objectif est bien sûr de construire un modèle capable de prédire la probabi
   
 - Résultat
 
-Le gradient boosting nous a présenté les meilleurs scores à tous niveaux, comparé aux autres modèles. 
+Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux, comparé aux autres modèles. 
   
 - Lien github : https://github.com/VivoAZ/Churn-project 
 
 ### Projet 2 : Clustering de la clientèle 
 
-- Résumé : 
-- Approche :
-- Résultat :
+- Résumé
+  
+  Nous disposons d'une base de données issue d'une campagne marketing d'une entreprise de telecommunication. L'objectif est de segmenter la clientèle en tenant compte du comportement des individus. C'est donc un projet de classification qui vise à regrouper les clients par catégorie afin de proposer des offres adaptées à chaque classe et optimiser le budget des campagnes.
+  
+- Approche
+
+  Pour y arriver, nous avons utilisé d'abord la méthode du coude pour avoir une idée sur le nombre de cluster optimal, bien évidemment après avoir procédé au prétraitement des données. Dès lors, nous avons utilisé l'algorithme KMeans pour effectuer les prédictions sur les jeux de données de test et de train. Ensuite, grâce à PCA, nous avons réduis les dimensions avant de procéder à la visualisation des clusters. La même démarche a été répétée pour l'algorithme CAH afin de comparer les deux modèles. Sans surprise, les résultats étaient similaires. Pour terminer, nous avons effectué l'évaluation avec l'indice de silhouette. 
+
+- Résultat
+
+  Indice de Silhouette pour K-Means: 0.5518549972456119
+  Indice de Silhouette pour CAH: 0.5435529942489229
+  
 - Lien github : https://github.com/VivoAZ/Projet-clustering-/tree/master 
 
 ### Projet 3 : Prédiction de prix des maisons 
 
 - Résumé
   
-  Ce projet est un jeu de données sur les maisons dans la ville de Boston avec des features capitales. Notre objectif est de prédire le prix des maisons dans cette zone en nous basant sur la relation entre les différentes variables. Nous disposons des variables quantatives et deux variables catégorielles. Le type de machine learning adapté est le ML supervisé.
+  C'est un projet de regression linéaire sur les maisons dans la ville de Boston avec des features capitales. Notre objectif est de prédire le prix des maisons dans cette zone en nous basant sur la relation entre les différentes variables. Nous disposons des variables quantatives et deux variables catégorielles. Le type de machine learning adapté est le ML supervisé.
   
 - Approche
   
-  Après chargement des données, nous avons procédé à une analyse exploratoire qui nous a conduit aux traitements des valeurs manquantes. A ce niveau, nous avons opté par l'imputation avec la moyenne pour les valeurs numériques puis l'imputation par le mode pour les valeurs catégorielles. Ensuite, nous avons procédé à la visualisons des potentiels outliers parmi nos données et leurs relations avec notre target. Les outliers détectés ont été traités suivant une troncature. Après, nous avons utilité le One Hote Encoding pour encoder les variables catégorielles. Poour finir cette partie, nous avons créer un pipeline qui résume toutes les étapes executées. Enfin, nous avons entraîné plusieurs modèles par cross validation sur notre jeu de train et l'évaluer avec la métrique MAE.     
+  Après chargement des données, nous avons procédé à une analyse exploratoire qui nous a conduit aux traitements des valeurs manquantes. A ce niveau, nous avons opté par l'imputation avec la moyenne pour les valeurs numériques puis l'imputation par le mode pour les valeurs catégorielles. Ensuite, nous avons procédé à la visualisons des potentiels outliers parmi nos données et leurs relations avec notre target. Les outliers détectés ont été traités suivant une troncature. Après, nous avons utilité le One Hote Encoding pour encoder les variables catégorielles. Poour finir cette partie, nous avons créer un pipeline qui résume toutes les étapes executées. Enfin, nous avons entraîné plusieurs modèles par cross validation sur notre jeu de train et l'évaluer avec la métrique MAE sur le jeu de test.     
 
-- Résultat : 2.501 grâce au modèle Gradient Boosting.
-
-  C'est un score acceptable au vu du nombre d'observations que nous disposons et de la relations entre nos variables et la target. Aussi, vu la problématque du métier, c'est un risque très gérable.   
+- Résultat : Le modèle Gradient Boosting nous a montré une bonne perfomance sur le jeu de train et du test. En effet, le MAE a donné respectivement 1.013 et 0.637. Ce sont de très bons scores qui montrent la capacité de notre modèle à s'adapter à de nouvelles données.  
   
 - Lien github : https://github.com/VivoAZ/Projet-prediction-de-prix 
 
 ## Compétences techniques et outils   
 
 - Frameworks : Scikit-learn
-- Outils de visualisation : Matplotlib, Seaborn, Plotly
+- Outils de visualisation : Matplotlib, Seaborn, Plotly, Missingno 
 - Outils de gestion des données : Pandas
 
 ## Contacts  
