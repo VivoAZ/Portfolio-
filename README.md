@@ -42,6 +42,7 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
 - Résultat
 
   Indice de Silhouette pour K-Means: 0.5518549972456119
+  
   Indice de Silhouette pour CAH: 0.5435529942489229
   
 - Lien github : https://github.com/VivoAZ/Projet-clustering-/tree/master 
@@ -56,7 +57,9 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
   
   Après chargement des données, nous avons procédé à une analyse exploratoire qui nous a conduit aux traitements des valeurs manquantes. A ce niveau, nous avons opté par l'imputation avec la moyenne pour les valeurs numériques puis l'imputation par le mode pour les valeurs catégorielles. Ensuite, nous avons procédé à la visualisons des potentiels outliers parmi nos données et leurs relations avec notre target. Les outliers détectés ont été traités suivant une troncature. Après, nous avons utilité le One Hote Encoding pour encoder les variables catégorielles. Poour finir cette partie, nous avons créer un pipeline qui résume toutes les étapes executées. Enfin, nous avons entraîné plusieurs modèles par cross validation sur notre jeu de train et l'évaluer avec la métrique MAE sur le jeu de test.     
 
-- Résultat : Le modèle Gradient Boosting nous a montré une bonne perfomance sur le jeu de train et du test. En effet, le MAE a donné respectivement 1.013 et 0.637. Ce sont de très bons scores qui montrent la capacité de notre modèle à s'adapter à de nouvelles données.  
+- Résultat 
+
+  Le modèle Gradient Boosting nous a montré une bonne perfomance sur le jeu de train et du test. En effet, le MAE a donné respectivement 1.013 et 0.637. Ce sont de très bons scores qui montrent la capacité de notre modèle à s'adapter à de nouvelles données.  
   
 - Lien github : https://github.com/VivoAZ/Projet-prediction-de-prix 
 
