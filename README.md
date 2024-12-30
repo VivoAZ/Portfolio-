@@ -3,7 +3,7 @@
 ## Profil  
 Marc AZIAN 
 
-Data Scientist en devenir, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, je suis passionné par l’application de la science des données au domaine du marketing, où j’ai déjà mené plusieurs projets que vous pouvez découvrir ci-dessous.
+Data Scientist Junior, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, je suis passionné par l’application de la science des données au domaine du marketing, où j’ai déjà mené plusieurs projets que vous pouvez découvrir ci-dessous.
 
 Ma spécialité réside dans l’utilisation de Python, et je suis en cours d’apprentissage de SQL pour enrichir mes compétences. Je m'intéresse également aux frameworks comme TensorFlow et PyTorch afin de développer mes connaissances en apprentissage profond. Mon adaptabilité et ma capacité à maîtriser rapidement de nouveaux outils technologiques sont des atouts clés de mon parcours.
 
