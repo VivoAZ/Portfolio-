@@ -3,11 +3,11 @@
 ## Profil  
 Marc AZIAN 
 
-Data Scientist Junior, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, je suis passionné par l’application de la science des données au domaine du marketing, où j’ai déjà mené plusieurs projets que vous pouvez découvrir ci-dessous.
+Data Scientist Junior, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, je suis passionné par l'exploration et l'exploitation des données et j’ai déjà mené plusieurs projets personnels. Pour ma soutenance de fin de formation, j'ai travaillé sur un projet de classification binaire visant à prédire les résultats électoraux des Etats-Unis.  
 
-Ma spécialité réside dans l’utilisation de Python, et je suis en cours d’apprentissage de SQL pour enrichir mes compétences. Je m'intéresse également aux frameworks comme TensorFlow et PyTorch afin de développer mes connaissances en apprentissage profond. Mon adaptabilité et ma capacité à maîtriser rapidement de nouveaux outils technologiques sont des atouts clés de mon parcours.
+Ma spécialité réside dans l’utilisation de Python et je sais également manipuler les bases de données relationnelles avec SQL. Je dispose aussi des compétences en création des Dashbord de visulation avec Power BI. Mon adaptabilité et ma capacité à maîtriser rapidement de nouveaux outils technologiques sont des atouts clés de mon parcours.
 
-Actuellement, je travaille sur un projet de classification binaire visant à prédire les résultats électoraux, un projet majeur dans le cadre de ma soutenance de fin de formation. Découvrez l’ensemble de mes réalisations et projets dans ce portfolio.    
+ Découvrez l’ensemble de mes réalisations dans ce portfolio.    
 
 ## Mes Projets 
 
@@ -65,9 +65,9 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
 
 ## Compétences techniques et outils   
 
-- Frameworks : Scikit-learn
-- Outils de visualisation : Matplotlib, Seaborn, Plotly, Missingno 
-- Outils de gestion des données : Pandas
+- Langages de programmation : Python, SQL
+- Bibliothèques et frameworks : Pandas, Matplotlib, Seaborn, Plotly, Missingno Scikit-learn
+- Outils : Git, VS Code, Colab, Jupyter Notebook, Power BI 
 
 ## Contacts  
 
