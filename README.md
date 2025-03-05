@@ -61,7 +61,78 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
 
   Le modèle Gradient Boosting nous a montré une bonne perfomance sur le jeu de train et du test. En effet, le MAE a donné respectivement 1.013 et 0.637. Ce sont de très bons scores qui montrent la capacité de notre modèle à s'adapter à de nouvelles données.  
   
-- Lien github : https://github.com/VivoAZ/Projet-prediction-de-prix 
+- Lien github : https://github.com/VivoAZ/Projet-prediction-de-prix
+
+### Projet 4 : Prédiction des résultats électoraux  
+
+- Résumé 
+
+  Pour ce projet, il est mis à notre disposition plusieurs bases de données à étudier pour prédire les résultats des élections présidentielles aux USA. Nous distinguons d'une part de quatres tables sur les données sociodémographiques à savoir : l'éducation, la population, la pauvreté et l'employablité. D'autres part, nous avons aussi les archives des élections de 2020, et un autre fichier sur les résultats de 2008 à 2016. Les bases de données sociodémographiques nous ont servir à créer un nouveau dataframe final et celle de 2020 à créer le target pour la prédiction. Quant à celle des archives de 2008 à 2016, elle nous a juste servi d'exploration et de comparaison. 
+
+- Approche
+
+  Pour rendre la base de données exploitable, nous avons suivi plusieurs étapes de nettoyage et de préparation, telles que la jointure des différentes bases de données, l’élimination des doublons, ainsi que le traitement des valeurs manquantes et des valeurs aberrantes. Lors de cette phase, nous avons rapidement identifié des variables et des individus présentant plus de 80 % de valeurs manquantes, que nous avons alors supprimés. Par la suite, nous avons constaté que plusieurs variables manquantes étaient fortement corrélées entre elles, ce qui a justifié le recours à la méthode KNN pour l'imputation des valeurs manquantes. En ce qui concerne les valeurs aberrantes, nous avons choisi de les détecter et de les remplacer par les moyennes des variables correspondantes.
+  
+  La base finale contient 3112 individus et 311 variables. La variable cible (target) a été déterminée en fonction des résultats des votes des républicains et des démocrates : si le nombre de votes des républicains était supérieur à celui des démocrates, la cible était assignée à 1 ; sinon, elle était assignée à 0. Après cette partie, nous avons procédé à l'analyse exploratoire de nos données, puis l'approche scientifique qui s'est déroulée en cinq différentes étapes :
+
+1- Prétraitement des données avec Pipeline : Le prétraitement des données a été automatisé grâce à un pipeline, incluant l’encodage des variables catégorielles via OneHotEncoder et la standardisation des variables numériques avec StandardScaler. Cela a permis une préparation homogène des données et a évité les fuites de
+données. 
+
+2- Modélisation avec plusieurs algorithmes : Quatre modèles ont été évalués 
+
+- Régression Logistique comme modèle de référence
+  
+- Arbre de Décision
+  
+- Forêt Aléatoire
+  
+- AdaBoost 
+  
+3- Optimisation des hyperparamètres avec GridSearchCV : Chaque modèle a été affiné à l’aide de GridSearchCV, en explorant diverses combinaisons d'hyperparamètres avec une validation croisée pour éviter le sur-ajustement et maximiser la performance.
+
+4- Évaluation des modèles avec plusieurs métriques : Les modèles ont été évalués à l'aide de plusieurs métriques comme l'accuracy, le F1-score, la matrice de confusion, et la courbe ROC & AUC, permettant ainsi une analyse complète et fiable de leurs performances.
+
+5- Visualisation des résultats : Des graphiques ont été utilisés pour illustrer les résultats, incluant la matrice de confusion, les courbes ROC, l’importance des variables, et les graphiques SHAP pour mieux comprendre et expliquer les décisions prises par les modèles.
+  
+- Résultat
+
+  Logistic Regression : 
+
+Accuracy (87,64 %) : Prédiction correcte dans 87,64 % des cas. Le modèle est généralement fiable, mais quelques erreurs subsistent. 
+
+F1-score (0.92) : Bon équilibre entre précision et rappel, indiquant une solide performance pour classer les électeurs dans les bonnes catégories. 
+
+AUC (0.91) : Excellente capacité à différencier les classes. 
+
+Decision Tree :
+
+Accuracy (87 %) : Moins précis que la régression logistique. 
+
+F1-score (0.91) : Reste élevé malgré l'accuracy plus faible.
+        
+AUC (0.75) : Moins performant pour différencier les classes. 
+
+
+Random Forest :
+
+Accuracy (88,28 %) : Le plus précis des modèles.
+
+F1-score (0.93) : Excellente gestion de la précision et du rappel.
+
+AUC (0.92) : Très bonne capacité à faire des distinctions claires entre les classes.
+
+AdaBoost :
+
+Accuracy (86,84 %) : Moins élevé que Random Forest, mais toujours bon.
+
+F1-score (0.9204) : Bon équilibre entre précision et rappel.
+
+AUC (0.87) : Moins performant que les autres modèles.
+
+
+Random Forest est le modèle le plus performant, avec la meilleure accuracy et AUC, ce qui en fait le meilleur choix pour prédire les résultats. Logistic Regression suit de près et peut être une alternative simple mais efficace. 
+ 
+- Lien github : https://github.com/VivoAZ/VF-Projet-Datagong 
 
 ## Compétences techniques et outils   
 
