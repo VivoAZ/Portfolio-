@@ -63,7 +63,7 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
   
 - Lien github : https://github.com/VivoAZ/Projet-prediction-de-prix
 
-### Projet 4 : Prédiction des résultats électoraux  
+### Projet de soutenance : Prédiction des résultats électoraux  
 
 - Résumé 
 
@@ -96,7 +96,7 @@ données.
   
 - Résultat
 
-  Logistic Regression : 
+Logistic Regression : 
 
 Accuracy (87,64 %) : Prédiction correcte dans 87,64 % des cas. Le modèle est généralement fiable, mais quelques erreurs subsistent. 
 
