@@ -3,7 +3,7 @@
 ## Profil  
 Marc AZIAN 
 
-Data Scientist, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, Je suis Data Scientist et je dispose déjà d'une solide expérience professionnelle en matière de manipulation des données. Pour ma soutenance de fin de formation, j'ai travaillé sur un projet de classification binaire visant à prédire les résultats électoraux des Etats-Unis sur la base des données sociodémographiques. En plus de ça, j'ai travaillé sur d'autres projets de machine learning comme le scoring, la segmentation de la clientèle, la classification binaire et la régression linéaire et j'ai également passé trois mois dans une entreprise de télécommunications (Celtiis Bénin) en tant que stagiaire où j'ai développé un modèle de churn pouvant permettre d'anticiper les risques de résiliation d'une offre de la part des clients de la société. Grâce à travers cette expérience, j'ai affiné mes compétences en matière d'analyse exploratoire pour l'identification des Insights fondamentaux pouvant orienter l'équipe marketing dans la prise de ses décisions stratégiques en vue de l'amélioration des chiffres d'affaires de la société. 
+Data Scientist, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science, je dispose déjà d'une solide expérience professionnelle en matière de manipulation des données. En effet, pour ma soutenance de fin de formation, j'ai travaillé sur un projet de classification binaire visant à prédire les résultats électoraux des Etats-Unis sur la base des données sociodémographiques. En plus de ça, j'ai travaillé sur d'autres projets de machine learning comme le scoring, la segmentation de la clientèle, la classification binaire, la régression et j'ai également passé trois mois dans une entreprise de télécommunication (Celtiis Bénin) en tant que stagiaire où j'ai développé un modèle de churn pouvant permettre d'anticiper les risques de résiliation d'une offre de la part des clients de la société. Grâce à cette expérience, j'ai affiné mes compétences en matière d'analyse exploratoire pour l'identification des insights fondamentaux pouvant orienter l'équipe marketing dans la prise de ses décisions stratégiques en vue de l'amélioration des chiffres d'affaires de la société. 
 
 Ma spécialité réside dans l’utilisation de Python et je sais également manipuler les bases de données relationnelles avec SQL. Je dispose aussi des compétences en création des Dashbord de visualisations avec Power BI. Mon adaptabilité et ma capacité à maîtriser rapidement de nouveaux outils technologiques sont des atouts clés de mon parcours.
 
@@ -175,6 +175,8 @@ KNN est le moins performant, aussi bien en recall qu’en F1-score.
 
 Conclusion
 Malgré une performance équilibrée de la régression logistique, le choix final se porte sur le Gradient Boosting à cause de son score AUC. En effet, contrairement à la RL qui est un modèle linéaire et qui présente des limites en matière de capture des relations complexes, le gradient boosting quant à lui est non linéaire et défit donc cette limite. Ce qui constitue un facteur très important au vu des données et la problématique de notre étude. Aussi, ce modèle donne une meilleure flexibilité pour ajuster le seuil selon le besoin métier. 
+
+- Lien GitHub : https://github.com/VivoAZ/Projet-Scoring 
 
 ## Compétences techniques et outils   
 
