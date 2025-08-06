@@ -3,7 +3,7 @@
 ## Profil  
 Marc AZIAN 
 
-Data Scientist Junior, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, je suis passionné par l'exploration et l'exploitation des données et j’ai déjà mené plusieurs projets personnels. Pour ma soutenance de fin de formation, j'ai travaillé sur un projet de classification binaire visant à prédire les résultats électoraux des Etats-Unis.  
+Data Scientist, formé par DATAGONG, un centre de formation international réputé basé en France et piloté par des experts en Data Science. Membre actif de l’association 10 000 Codeurs, Je suis Data Scientist et je dispose déjà d'une solide expérience professionnelle en matière de manipulation des données. Pour ma soutenance de fin de formation, j'ai travaillé sur un projet de classification binaire visant à prédire les résultats électoraux des Etats-Unis sur la base des données sociodémographiques. En plus de ça, j'ai travaillé sur d'autres projets de machine learning comme le scoring, la segmentation de la clientèle, la classification binaire et la régression linéaire et j'ai également passé trois mois dans une entreprise de télécommunications (Celtiis Bénin) en tant que stagiaire où j'ai développé un modèle de churn pouvant permettre d'anticiper les risques de résiliation d'une offre de la part des clients de la société. Grâce à travers cette expérience, j'ai affiné mes compétences en matière d'analyse exploratoire pour l'identification des Insights fondamentaux pouvant orienter l'équipe marketing dans la prise de ses décisions stratégiques en vue de l'amélioration des chiffres d'affaires de la société. 
 
 Ma spécialité réside dans l’utilisation de Python et je sais également manipuler les bases de données relationnelles avec SQL. Je dispose aussi des compétences en création des Dashbord de visualisations avec Power BI. Mon adaptabilité et ma capacité à maîtriser rapidement de nouveaux outils technologiques sont des atouts clés de mon parcours.
 
@@ -63,7 +63,7 @@ Le gradient boosting nous a présenté les meilleurs scores à tous les niveaux,
   
 - Lien github : https://github.com/VivoAZ/Projet-prediction-de-prix
 
-### Projet de soutenance : Prédiction des résultats électoraux  
+### Projet 4 (soutenance) : Prédiction des résultats électoraux  
 
 - Résumé 
 
@@ -132,13 +132,55 @@ AUC (0.87) : Moins performant que les autres modèles.
 
 Random Forest est le modèle le plus performant, avec la meilleure accuracy et AUC, ce qui en fait le meilleur choix pour prédire les résultats. Logistic Regression suit de près et peut être une alternative simple mais efficace. 
  
-- Lien github : https://github.com/VivoAZ/VF-Projet-Datagong 
+- Lien github : https://github.com/VivoAZ/VF-Projet-Datagong
+
+### Projet 5 : Projet de scoring des clients d'une entreprise de télécommunication
+
+- Résumé
+
+Développement d’un modèle de scoring prédictif du churn client dans le secteur des télécommunications à partir de données comportementales et démographiques. L’objectif était d’identifier les clients à risque de résiliation afin d’orienter les actions marketing ciblées et améliorer la rétention. Le modèle final repose sur un Gradient Boosting Classifier avec une explicabilité assurée via SHAP. 
+
+- Approche méthodologique
+
+Feature engineering : création de nouvelles variables dérivées, encodage des variables catégorielles (OneHot + Ordinal).
+
+Sélection des variables : filtrage via SelectKBest (chi²) pour ne conserver que les 20 meilleures.
+
+Prétraitement & pipeline : pipeline scikit-learn combinant encodage, standardisation et classification.
+
+Modélisation : entraînement et évaluation de plusieurs modèles, avec métriques (F1, AUC, précision).
+
+Explicabilité : analyse de l’importance des variables via SHAP pour l’interprétabilité du modèle. 
+
+Exportation du fichier csv de tous les clients avec les niveaux de risque de churn et les recommandations marketing 
+
+- Résultat
+
+| Modèle                  | Accuracy | F1-score (classe 1) | AUC      |
+| ----------------------- | -------- | ------------------- | -------- |
+| **Logistic Regression** | 0.80     | **0.59**            | 0.83     |
+| **Random Forest**       | 0.78     | 0.55                | 0.81     |
+| **Gradient Boosting**   | 0.79     | 0.57                | **0.84** |
+| **SVM**                 | 0.78     | 0.52                | 0.79     |
+| **KNN**                 | 0.76     | 0.53                | 0.77     |
+
+Commentaire analytique
+Logistic Regression affiche un excellent compromis entre simplicité, F1-score et AUC, ce qui en fait un modèle de référence solide.
+
+Gradient Boosting obtient le meilleur score AUC (0.84), indiquant une forte capacité de discrimination, mais avec un léger recul en F1 par rapport à la régression logistique.
+
+Les modèles Random Forest et SVM présentent une performance correcte, mais avec un recall plus faible sur la classe 1, essentielle pour ce projet (détection des clients potentiellement "upsellables").
+
+KNN est le moins performant, aussi bien en recall qu’en F1-score.
+
+Conclusion
+Malgré une performance équilibrée de la régression logistique, le choix final se porte sur le Gradient Boosting à cause de son score AUC. En effet, contrairement à la RL qui est un modèle linéaire et qui présente des limites en matière de capture des relations complexes, le gradient boosting quant à lui est non linéaire et défit donc cette limite. Ce qui constitue un facteur très important au vu des données et la problématique de notre étude. Aussi, ce modèle donne une meilleure flexibilité pour ajuster le seuil selon le besoin métier. 
 
 ## Compétences techniques et outils   
 
 - Langages de programmation : Python, SQL
-- Bibliothèques et frameworks : Pandas, Matplotlib, Seaborn, Plotly, Missingno Scikit-learn
-- Outils : Git, VS Code, Colab, Jupyter Notebook, Power BI 
+- Bibliothèques et frameworks : Pandas, Matplotlib, Seaborn, Plotly, Missingno, Scikit-learn
+- Outils : Git, VS Code, Colab, Jupyter Notebook, Power BI, Excel 
 
 ## Contacts  
 
