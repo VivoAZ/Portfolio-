@@ -134,7 +134,7 @@ Random Forest est le modèle le plus performant, avec la meilleure accuracy et A
  
 - Lien github : https://github.com/VivoAZ/VF-Projet-Datagong
 
-### Projet 5 : Projet de scoring des clients d'une entreprise de télécommunication
+### Projet 5 : Scoring des clients d'une entreprise de télécommunication
 
 - Résumé
 
